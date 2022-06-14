@@ -1,0 +1,120 @@
+.btn{
+ padding: 7px 2px; 
+ margin: 10px; 
+ background-color: blue; 
+ color: white;
+ border-radius: 7px;
+ border: none;
+cursor: pointer;
+    
+}
+#table , #hi{
+    background-color:#101820ff;
+}
+#me { 
+    color:#fff ;
+}
+#lorem ,#about , #hi{
+    color:#f2aa4cff;
+}
+
+ .hun {
+    color:#f2aa4cff;
+}
+.btn{
+    background-color: #f2aa4cff;
+    color: black;
+}
+.white{
+    color: #fff;
+}
+/*contact me btn*/
+#btn1{
+ font-size: x-large;
+    font-style: italic;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius:20px;
+    background-color: #f2aa4cff;
+    color:black;
+    border: #fff;
+    margin:20px ;
+    padding: 20px 50px;
+}
+.brown{
+    background-color: #f2aa4cff;
+}
+#name{
+    width: 400px;
+    height: 30px;
+}
+#email{
+    width: 400px;
+    height:30px;
+}
+#textarea{
+    width: 400px;
+    height: 130px ;
+}
+.btn2{
+    background-color:#000;
+    color:#fff;
+    padding:10px 50px;
+    margin: 10px;
+    border-radius:15px;
+}
+#reg{
+    width: 50px;
+    height: 500px;
+}
+.select{
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+}
+#submit{
+    width: 260px;
+    height: 30px;
+    border-radius:10px;
+    color:#f2aa4cff;
+    background-color: #000;
+    font-size: medium;
+margin-top:50px;
+}
+#stu{
+    background: #f2aa4cff;
+    width: 50%;
+    margin: top 20px;
+}
+#tab1{
+    background: #000;
+}
+#log{
+    font-size:x-large;
+}
+#email2{
+    width: 300px;
+    height:30px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#password{
+    width: 300px;
+        height: 30px;
+        border-radius:10px;
+        margin-bottom:0px;
+}
+#btn3{
+    background: #000;
+    color:white;
+    font-size: medium;
+    height: 30px;
+    width: 200px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 50px;
+}
+#btn3:hover{
+    background-color:#B2BEB5;
+}
+/*  */

@@ -1,0 +1,19 @@
+/* styling click am asap with class*/
+.btn{
+    cursor: pointer;
+}
+
+/* styling submit with an id*/
+#btn {
+    padding: 7px 2px;
+    margin: 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+}
+/* styling nyefee with an id*/
+#btttn{
+    cursor: pointer;
+}

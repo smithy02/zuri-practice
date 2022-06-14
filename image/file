@@ -1,0 +1,14 @@
+      <aside>
+    
+            <nav>
+      
+         <table id="table" width="100%">
+<tr><th width="40"></th>
+    <th width="15%"> <a href="Homepage.html"><nav>HOME</nav></a> </th>
+    <th width="15%"><a href="contactpage.html"><nav>CONTACT</nav></a></th>
+     <th width="15%"> <a href="Registeration.html"> <nav> REGISTRATION</nav></a></th>
+     <th width="15%"><a href="loginpage.html">LOGIN</a></th></tr> 
+       </table>
+       
+    </nav>
+    </aside>
