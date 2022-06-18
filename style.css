@@ -1,0 +1,198 @@
+
+#pages{
+    margin-top: 20px;
+    margin-left: 30px;
+    height: 35px;
+    width: 80px;
+    border-radius: 10px;
+}
+#pages:active{
+    background-color: blue;
+}
+#flex{
+    background: hsl(0,0%,95%);
+    font-size: 15px;
+    font-weight: 400;
+}
+#main1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#div1{
+    background-color:hsl(31,77%, 52%);
+    margin-top: 100px;
+    height: 500px;
+    width: 300px;
+border-bottom-left-radius: 5px;
+border-top-left-radius: 5px;
+}
+.btn1{
+    margin-top: 180px;
+    border-radius: 20px;
+    height: 40px;
+    width:120px ;
+    color: rgba(242, 170, 76, 0.878);
+    margin-left: 20px;
+    background:hsl(0,0%,95%);
+    cursor: pointer;
+}
+.btn1:hover{
+    background-color: rgba(242,170,76,0.878);
+color: white;
+}
+#div2{
+background:hsl(184,100%,22%);
+margin-top: 100px;
+    height: 500px;
+    width: 300px;
+}
+p{
+    color: hsla(0,0%,100%,0.75);
+    margin:10px;
+    margin-left: 30px;
+}
+h1{
+    color: hsl(0,0%,95%);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-style:normal;
+    font-family:Arial, Helvetica, sans-serif
+}
+#div3{
+    background:hsl(179,100%,13%);
+margin-top: 100px;
+    height: 500px;
+    width: 300px;
+    border-bottom-right-radius: 5px;
+        border-top-right-radius: 5px;
+}
+.btn2{
+    margin-top:160px;
+        border-radius: 20px;
+        height:40px;
+        width: 120px;
+        color:hsl(193, 32%, 41%);
+        margin-left: 20px;
+        background: hsl(0,0%,95%);
+        cursor: pointer;
+}
+.btn2:hover{
+    background:hsl(193, 32%, 41%) ;
+    color: white;
+}
+.btn3{
+    margin-top: 180px;
+        border-radius: 20px;
+        height: 40px;
+        width: 120px;
+    color:hsl(195, 46%, 22%);
+    margin-left: 20px;
+    background: hsl(0,0%,95%);
+    cursor: pointer;
+}
+.btn3:hover{
+    background:hsl(195, 46%, 22%);
+    color:white;
+}
+#luxury{
+    height: 40px;
+    margin-left: 30px;
+    margin-top:30px;
+    
+}
+#sedan {
+    height: 40px;
+    margin-left: 30px;
+    margin-top: 30px;
+
+}
+#suv {
+    height: 40px;
+    margin-left: 30px;
+    margin-top: 30px;
+
+}
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+#grid {
+    background: rgb(11, 24, 52);
+    display: flex;
+    color: bisque;
+}
+
+#main2 {
+    display: grid;
+    grid-template-areas:
+        'a a a b'
+        'c c d d'
+        'c c e e';
+    width: 60%;
+    gap: 10px;
+    height: 90vh;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 150px;
+    border-radius: 5px;
+}
+
+#main2 div {
+    text-align: center;
+    padding: 20px;
+}
+
+#A {
+    background: orangered;
+    grid-area: a;
+}
+
+#B {
+    background: orange;
+    grid-area: b;
+}
+
+#C {
+    background: green;
+    grid-area: c;
+}
+
+#D {
+    background: rgb(0, 132, 255);
+    grid-area: d;
+}
+
+#E {
+    background: rgb(0, 132, 255);
+    grid-area: e;
+}
+@media only screen and (max-width:375px) {
+#main1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.btn1{
+    margin-top: 105px;
+        border-radius: 19px;
+        height: 40px;
+        width:90px;
+}
+.btn2{
+    margin-top: 30px;
+        border-radius: 19px;
+        height: 40px;
+        width:90px;
+}
+.btn3{
+    margin-top: 90px;
+        border-radius: 19px;
+        height: 40px;
+        width:90px;
+}
+}

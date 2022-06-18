@@ -1,0 +1,47 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#grid{
+    background: rgb(11, 24, 52);
+    display: flex;
+    color: bisque;
+}
+#main2{
+    display: grid;
+grid-template-areas: 
+'a a a b'
+'c c d d'
+'c c e e';
+width: 60%;
+gap: 10px;
+height:90vh;
+margin-top: 40px;
+margin-bottom: 40px;
+margin-left:150px;
+border-radius: 5px;
+}
+#main2 div{
+    text-align: center;
+    padding: 20px;
+}
+#A{
+    background: orangered;
+    grid-area: a;
+}
+#B{
+    background:orange;
+    grid-area: b;
+}
+#C{
+    background:green;
+    grid-area: c;
+}
+#D{
+    background:rgb(0, 132, 255);
+    grid-area: d;
+}
+#E{
+    background:rgb(0, 132, 255);
+    grid-area: e;
+}

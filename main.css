@@ -3,25 +3,26 @@ td {
 }
 
 * {
-    margin: 5;
+    margin: 5px;
 }
 
 * {
     padding: 0%;
     margin: 0%;
-    background: hsla(200, 0%, 0%, 0.1)
+    background: hsla(250, 0%, 0%, 0.1)
        
 }
 
 body {
-    /*color:rgba(0,0,255,0.9);*/
-        /*background: url(IMG_5569.jpg) no-repeat ;*/
-    align-items: center;
-    justify-content: center;
+    /*color:rgba(0,0,255,0.9);
+        background: url(IMG_5569.jpg) no-repeat ;*/
+   /* align-items: center;
+    justify-content: center;*/
     display: flex;
+    
 }
 .container{
-position: relative;
+position:relative;
 margin-top: 100px;
 width: 450px;
 height: auto;
